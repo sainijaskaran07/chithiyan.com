@@ -20,7 +20,7 @@ In a world dominated by virtual connections, Chithiyan.com aims to bring back th
 
 📥 Installation
 To set up the project locally, follow these steps:
-1. Clone the repository: git clone https://github.com/yourusername/chithiyan.com.git
+1. Clone the repository: git clone https://github.com/harsimransngh/chithiyan.com.git
 2. Navigate to the project directory: cd chithiyan.com
 3. Install dependencies: npm install
 4. Start the development server: npm start
