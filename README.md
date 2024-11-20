@@ -20,7 +20,7 @@ In a world dominated by virtual connections, Chithiyan.com aims to bring back th
 
 📥 Installation
 To set up the project locally, follow these steps:
-1. Clone the repository: git clone https://github.com/harsimransngh/chithiyan.com
+1. Clone the repository: git clone https://github.com/harsimransngh/chithiyan.com.git
 2. Navigate to the project directory: cd chithiyan.com
 3. Install dependencies: npm install
 4. Start the development server: npm start
@@ -39,9 +39,9 @@ Contributions are welcome! If you’d like to contribute:
 💬 Contact
 Have questions or suggestions? Feel free to reach out!
 
-Email: YourEmail@example.com
-Twitter: @harsimransngh
-LinkedIn: Harsimran Singh
+Email: chithiyan@gmail.com
+Twitter: @chithiyan
+Instagram: chithiyan
 
 ⚡ Fun Fact
 The name Chithiyan reflects the Punjabi essence of heartfelt letters and emotions, blending traditional storytelling with modern technology.
