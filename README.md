@@ -1,4 +1,4 @@
-![logo](https://github.com/user-attachments/assets/8ef5f922-57b8-49b8-bd56-a470debaf60d)
+![logo](https://github.com/user-attachments/assets/8ef5f922-57b8-49b8-bd56-a470debaf60d)(img-size:height:200px widhth:200px)
 
 🌟 Chithiyan.com
 Chithiyan.com is a platform designed to foster real, meaningful connections through storytelling and personal expression. It serves as a space where users can share their thoughts, emotions, and life experiences in a poetic and authentic way.
@@ -45,4 +45,3 @@ Instagram: chithiyan
 
 ⚡ Fun Fact
 The name Chithiyan reflects the Punjabi essence of heartfelt letters and emotions, blending traditional storytelling with modern technology.
-
