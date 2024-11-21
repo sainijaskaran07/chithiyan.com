@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-color:orange;
+    background-color:red;
 }
 
 #top-heading {
@@ -31,6 +31,13 @@ header {
     font-family: "Edu AU VIC WA NT Pre", cursive;
     font-weight: 700;
     font-style: normal;
+}
+
+#logo {
+    width:100px;
+    margin:0 auto;
+    display: block;
+    padding-bottom:25px;
 }
 
 /* For desktop: */
