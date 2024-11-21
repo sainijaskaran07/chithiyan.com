@@ -133,6 +133,12 @@ input [type=submit] {
     width: 100%;
   }
 
+  nav li {
+    display:block;
+    margin: bottom 5px;
+  }
+
+
   .gallery-2 {
     display:none;
 }
