@@ -40,6 +40,28 @@ header {
     padding-bottom:25px;
 }
 
+nav {
+    text-align:center;
+    background-color: #BF1B2C;
+    padding: 10px 50px;
+}
+
+nav li {
+    display:inline;
+    background-color: #073A58;
+    padding: 10px 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
