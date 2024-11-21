@@ -70,6 +70,16 @@ nav li:hover {
     padding: 0;
 }
 
+.about-img {
+    padding:0;
+}
+
+.about-text h3 {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size:28px;
+}
+
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
