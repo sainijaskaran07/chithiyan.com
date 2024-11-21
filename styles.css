@@ -88,7 +88,6 @@ nav li:hover {
     font-size:28px;
 }
 
-
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -108,4 +107,13 @@ nav li:hover {
   [class*="col-"] {
     width: 100%;
   }
+
+  .gallery-2 {
+    display:none;
+}
+
+#top-heading {
+    font-size:28px;
+}
+
 }
