@@ -1,3 +1,18 @@
-﻿body {
-    background-color:orange;
+﻿* {
+    box-sizing: border-box;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+body {
+    background-color: #D9D9D9;
 }
