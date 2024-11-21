@@ -63,7 +63,7 @@ nav li a {
 }
 
 nav li:hover {
-    background-color:aquamarine;
+    background-color:#073A58;
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}
