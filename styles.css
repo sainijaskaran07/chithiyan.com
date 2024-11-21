@@ -88,6 +88,31 @@ nav li:hover {
     font-size:28px;
 }
 
+.map iframe {
+    width: 100%;
+    height: 315px;
+}
+
+label {
+    font: size 20px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    padding:10px;
+}
+
+input[type=text] {
+    width:100px;
+    padding: 10px 20;
+    margin-bottom:10px;
+    border-radius: 15px;
+}
+
+input [type=submit] {
+    padding: 15px;
+    background-color: #073A58;
+    color: #BF1B2C;
+    text-size:16;
+}
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
