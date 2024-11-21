@@ -135,7 +135,8 @@ input [type=submit] {
 
   nav li {
     display:block;
-    margin: bottom 5px;
+    margin: bottom 15px;
+    padding:25px;
   }
 
 
