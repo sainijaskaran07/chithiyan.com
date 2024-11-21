@@ -70,6 +70,15 @@ nav li:hover {
     padding: 0;
 }
 
+.section-heading {
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
 .about-img {
     padding:0;
 }
