@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-color:red;
+    background-color:#A6A6A6;
 }
 
 #top-heading {
@@ -42,7 +42,7 @@ header {
 
 nav {
     text-align:center;
-    background-color: #A6A6A6;
+    background-color: #ffffff;
     padding: 10px 50px;
 }
 
