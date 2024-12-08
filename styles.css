@@ -1,151 +1,248 @@
 ﻿* {
-    box-sizing: border-box;
-}
-  
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-  
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-
-body {
-    background-color: #D9D9D9;
-    max-width:1200px;
-    margin:0 auto;
-}
-
-header {
-    background-color:#A6A6A6;
-}
-
-#top-heading {
-    text-align:center;
-    color:#073A58;
-    font-size:42px;
-    padding-top: 10px;
-    font-family: "Edu AU VIC WA NT Pre", cursive;
-    font-weight: 700;
-    font-style: normal;
-}
-
-#logo {
-    width:300px;
-    margin:0 auto;
-    display: block;
-    padding-bottom:10px;
-}
-
-nav {
-    text-align:center;
-    background-color: #BF1B2C;
-    padding: 10px 50px;
-}
-
-nav li {
-    display:inline;
-    background-color: #a6a6a6;
-    padding: 10px 50px;
-    border-radius: 25px;
-    margin-right: 10px;
-}
-
-nav li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: "Edu AU VIC WA NT Pre", cursive;
-    font-weight: 400;
-}
-
-nav li:hover {
-    background-color:#073A58;
-}
-
-.image1 {
-    padding: 0;
-}
-
-.section-heading {
-    text-align: center;
-    background-color: black;
-    color: orange;
-    font-family: "Edu AU VIC WA NT Pre", cursive;
-    font-weight: 600;
-    padding: 10px 0px;
-}
-
-.about-img {
-    padding:0;
-}
-
-.about-text h3 {
-    font-family: "Edu AU VIC WA NT Pre", cursive;
-    font-size:28px;
-}
-
-.map iframe {
-    width: 100%;
-    height: 315px;
-}
-
-label {
-    font: size 20px;
-    font-family: "Edu AU VIC WA NT Pre", cursive;
-    padding:10px;
-}
-
-input[type=text] {
-    width:100px;
-    padding: 10px 20;
-    margin-bottom:10px;
-    border-radius: 15px;
-}
-
-input [type=submit] {
-    padding: 15px;
-    background-color: #073A58;
-    color: #BF1B2C;
-    text-size:16;
-}
-
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
+    /* background-color: aquamarine; */
+    text-transform: capitalize;
+    font-family: sans-serif;
   }
-
-  nav li {
-    display:block;
-    margin: bottom 15px;
-    padding:25px;
+  /* video */
+  .video-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* height: 100vh; */
+      /* overflow: hidden; */
+      /* border-radius: 20px; */
   }
-
-
-  .gallery-2 {
-    display:none;
-}
-
-#top-heading {
-    font-size:28px;
-}
-
-}
+  
+  .video {
+      position: relative;
+      z-index: 10;
+      width: 85%;
+      height: 85%;
+      border-radius: 18px;
+      animation: fadeIn 2s ease-in-out;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  
+      /* max-width: none; */
+  }
+  
+  /* side bar 1 candy red 0.6 left */
+  .side-bar1 {
+      /* margin: 0; */
+      /* padding: 0; */
+      height: 800px;
+      width: 80px;
+      background-color:#103783;
+      /* linear-gradient(to right , #243748 ,#4b749f) */
+      /* opacity: 0.8; */
+      position: absolute;
+      border-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      animation: slideInLeft 1s ease-out;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  /* side-bar1-text */
+  .side-bar1-text {
+      /* display: inline; */
+      /* text-emphasis:; */
+      /* text-align: ; */
+      color: rgb(255, 255, 255);
+      font-size: xx-large;
+      transform: rotate(270deg);
+      text-decoration: underline yellow;
+      position: relative;
+      top: 500px;
+      white-space: nowrap;
+      text-shadow: red;
+      font-weight: bolder;
+      /* font-stretch:semi-expanded ; */
+      /* text-decoration: underline yellow; */
+  
+  }
+  
+  /* side-bar2 */
+  .side-bar2 {
+      height: 800px;
+      width: 80px;
+      background-color: #ffa585;
+  
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border-radius: 10px;
+      animation: slideInRight 1s ease-out;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      a {
+          transition: transform 0.3s ease, color 0.3s ease;
+      }
+  }
+  .side-bar2 a:hover {
+      transform: scale(1.3);
+      color: #00ff00;
+    }
+  
+  /* .side-bar2-text {
+      color: whitesmoke;
+      font-size: xx-large;
+      transform: rotate(270deg);
+      position: relative;
+      top: 500px;
+      white-space: nowrap;
+      text-shadow: red;
+      font-weight: bolder;
+  } */
+  
+  /* right side nav social icons */
+  
+  /* email */
+  /* .social-media {
+      color: rgb(225, 255, 0);
+      font-size: xx-large;
+      z-index: 1;
+      position: relative;
+      top: 200px;
+      left: 25px;
+  } */
+  /* instagram */
+  .social-media1 {
+      color: rgb(225, 255, 0);
+    font-size: xx-large;
+      z-index: 1;
+      position: relative;
+      top: 370px;
+      /* left: 20px; */
+      left: 25px;
+  }
+  /* twitter */
+  /* .social-media2 {
+      color: rgb(225, 255, 0);
+      font-size: xx-large;
+        z-index: 1;
+        position: relative;
+        top: 565px;
+        left: 25px;
+        /* right: 0px; */
+  */
+  
+  /* visbility no in normal screen  */
+  footer {
+    visibility: hidden;
+  }
+  
+  
+  /* key frmaes and media  */
+  @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes slideInLeft {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+    
+    @keyframes slideInRight {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+    @media (max-width: 768px) {
+      .side-bar1,
+      .side-bar2 {
+        width: 50px;
+      }
+    
+      .side-bar1-text h2 {
+        font-size: 1.2rem;
+      }
+    
+      .side-bar2 a {
+        font-size: 1.2rem;
+      }
+    
+      .video {
+        width: 100%;
+        height: auto;
+      }
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
+    /* Mobile-only Styles */
+    @media (min-width: 769px) {
+      .social-bar {
+        display: none;
+      }
+    }
+  
+  
+    /* for mobile  */
+    @media all and (min-width:300px) and (max-width: 1280px) {
+      /* put your css styles in here */
+      .side-bar1 {
+        /* visibility: hidden; */
+        height: 160px;
+        width: 90%;
+        position: relative;
+        top: 20px;
+        left: 5%;
+        background-image: url(PIC1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: linear-gradient(#08203e,#557c93); */
+      } 
+      .side-bar2 {
+         visibility: hidden;
+        
+         /* height: 160px;
+         width: 100%;
+         position: relative;
+         top: 400px;
+         left: 10%;
+         transform: rotate(180deg);
+         
+         
+         a {
+          visibility: hidden;
+         } */
+      }
+      .video-container {
+        position: absolute;
+        top: 35%;
+        left: 0px;
+      }
+      .side-bar1-text {
+        visibility: hidden;
+      }
+     
+      .social-media {
+          color: black;
+          position: relative;
+          top: 900px;
+          left: 20px;
+          z-index: 
+          1;
+         }
+      
+  
+    }
